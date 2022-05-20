@@ -5,7 +5,10 @@ Esto es una página de prueba, no es una peluquería real
 <h2>
 Página peluquería
 </h2>
-<a href="https://juanjose20172.github.io/peluqueria/">Link página:</a>
+<a href="https://juanjose20172.github.io/peluqueria/">Enlace página:https://juanjose20172.github.io/peluqueria/</a>
+<h3>
+<a href="https://juanjose20172.github.io/peluqueria/">Click aquí para ver página</a>
+</h3>
 
 <img src="https://raw.githubusercontent.com/juanjose20172/peluqueria/main/imagenes/logo.png" >
 
