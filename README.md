@@ -29,4 +29,7 @@ imagenes
 1 mapa de google
 </li>
 <br>
-***Gracias por tu visita***
+
+<h2>
+Gracias por tu visita
+</h2>
