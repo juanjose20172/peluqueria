@@ -28,5 +28,5 @@ imagenes
 <li>
 1 mapa de google
 </li>
-
+<br>
 ***Gracias por tu visita***
