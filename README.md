@@ -1,6 +1,11 @@
-<h2>
+<h2><u>
 Esto es una página de prueba, no es una peluquería real
+</u></h2>
+
+<h2>
+Página peluquería
 </h2>
+<a href="https://juanjose20172.github.io/peluqueria/">Link página:</a>
 
 <img src="https://raw.githubusercontent.com/juanjose20172/peluqueria/main/imagenes/logo.png" >
 
@@ -30,6 +35,6 @@ imagenes
 </li>
 <br>
 
-<h2>
+<h3>
 Gracias por tu visita
-</h2>
+</h3>
