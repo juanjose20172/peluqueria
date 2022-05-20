@@ -1,0 +1,116 @@
+/* podemos mirar en la consola del navegador las configuraciones (codigo) para cada etiqueta y tambien tener la tablita VISUAL de esas configuraciones */
+/* resetear el css significa limpiar las configuraciones por defecto en CSS que trae */
+/* el navegador, el profesor provee un archivo llamado reset.css */
+/* la position absolute , cambia la posicion inicial de donde se encuentra el elemento */
+/* la position: relative posiciona al elemento justo despues del elemento anterior, hay que tener en cuenta si estan en un mismo contenedor */
+header{
+    background-color: lightgray;
+    /* le ordena 20px al padding de arriba y 0 al resto: */
+    padding: 20px 0;
+    /* border: solid 2px;  */
+}
+
+caja{
+    width: 940px;
+    /* dice position: relative (a la posicion absoluta que le habiamos puesto anteriormente), pero no entendí muy bien */
+    position: relative;
+    margin: 0 auto;
+    /* border: 3px solid yellow; */
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    /* border: solid;   */
+}
+ /* HTML configura por defecto todas las etiquetas con "position:static", si necesitamos ambiarle la posicion hay qu editarla  */
+nav li{
+    /* display: inline es para que el navegador ocupe solo el espacio de navegacio
+    en este caso sin enter */
+    display: inline;
+    /* el orden del margen es arriba derecha abajo izquierda, en este caso dimos 15 de distancia en la izquierda */
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    /* "text-transform: uppercase" para poner el diseño del texto en mayuscula */
+    text-transform: uppercase;
+    color: #000000;
+    /* font-weight: bold es para poner negrita, lo correcto es hacerlo desde el css y no con STRONG     */
+    font-weight: bold;
+    font-size: 22px;
+    /* text-decoration: none para quitar el subrayado de los enlaces*/
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.productos{
+    /* border: solid 4px; */
+    width: 940px; 
+    /* "margin: 0 auto;" configura arriba y abajo cero y el resto automatico */
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    /* background: #CCCCCC; */
+    /* el 1.5% se eligió porque los <li> ocupan el 90% todos y los 6 margenes de 1.5%=9% para un total del 99% ocupado de los 940px de todo el contenedor <ul> con la clase "productos" */
+    /* es bueno siempre calcular esos espacios para que quede equilibrado */
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    /* box-sizing: border-box; hace que el padding no sobrepase el ancho de la caja, osea el ancho del <ul> "productos" */
+    box-sizing: border-box;
+    /* en este codigo nos ahorramos 2 lineas especificando de una vez el ancho estilo y color, y ese es el ordenj */
+    border: 2px solid #000000;
+    /* border-color: #000000;
+    border-width: 2px;
+    border-style: solid; 
+    el "border solid queda posicionado enrrw el paddinf y el margin*/
+    border-radius: 10px;
+    /*tambien podemos poner los siguiwntes codigos de borde
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    */
+    
+    
+}
+
+.productos li:hover{
+    border-color:#c78c19;
+}
+/*el ACTIVE es para cuando dan click sobre el elemento */
+.productos li:active{
+    border-color:#088c19;
+}
+
+.productos h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.productos li:hover h2 {
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
