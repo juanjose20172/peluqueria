@@ -1,21 +1,32 @@
 <h2>
 Esto es una página de prueba, no es una peluquería real
 </h2>
-Esto es una página de prueba, no es una peluquería real
 
 <img src="https://raw.githubusercontent.com/juanjose20172/peluqueria/main/imagenes/logo.png" >
 
 **Contiene:**
-> Página de Inicio
-> Página de Productos
-> Página de Contacto
+<li>
+ Página de Inicio
+ </li>
+<li>
+ Página de Productos
+ </li>
+<li>
+Página de Contacto
+ </li>
 
 
 <h3>
 Contenido multimedia:
 </h3>
-- imagenes
-- 1 video
-- 1 mapa de google
+<li>
+imagenes
+</li>
+<li>
+1 video
+</li>
+<li>
+1 mapa de google
+</li>
 
 ***Gracias por tu visita***
